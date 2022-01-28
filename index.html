@@ -1,13 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+
     <title>Document</title>
-</head>
-<body>
-    <h1> HELO HELO HLEOOO</h1>
-    <h3>hello hello hello helo helo </h3>
-</body>
+  </head>
+  <body>
+    <div id="nameContainer">
+      <h3 id="name">
+        Hello!<br />
+        I'm Amaury, <br />
+        a front-end developer.
+      </h3>
+    </div>
+
+    <nav id="navigation">
+      <ul id="navUl">
+        <li class="navBtns"><a href="#">Home</a></li>
+        <li class="navBtns"><a href="#about">About</a></li>
+        <li class="navBtns"><a href="#project">Projects</a></li>
+        <li class="navBtns"><a href="#contact">Home</a></li>
+      </ul>
+    </nav>
+    <section id="about">
+      <div id="container">
+        <div class="about">
+          <h3>About me</h3>
+          <p class="para">
+            I'm a latino web-developer and multi-disciplinary artist based in
+            NYC. I have an interest in design, responsive UI, and anything that makes a
+            website seem modern and simple. When I'm not programing, I enjoy composing albums, 
+            painting, rollerskating, visiting museums, or going out to the city with my wife.
+
+            <br />
+            <br />
+            I specialize in the language Java Script, and use libraries such as
+            React. Other technologies I use are posgreSQL, Sheet JS, HTML, CSS.
+          </p>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-react-original-wordmark"></i>
+          <i class="devicon-redux-original"></i>
+          <i class="devicon-postgresql-plain"></i>
+          <i class="devicon-nodejs-plain-wordmark"></i>
+          <i class="devicon-css3-plain-wordmark"></i>
+          <i class="devicon-html5-plain-wordmark"></i>
+          <i class="devicon-express-original-wordmark"></i>
+
+          <!-- <a id='resumeBtn'>RESUME</a> -->
+        </div>
+
+        <!-- <div class="about">
+        <p class="para">and I use these technologies:</p>
+      </div> -->
+      </div>
+      </section>
+      <section id='project'>
+      <div id="projectsDiv">
+        <div id="projectContainer">
+          <h3>Projects</h3>
+          <h1>Violet List</h1>
+          <p>
+            This project converts a lesson plan coming in the form of an excel
+            file into a neatly arranged To-do list using javascript, a posgreSQL
+            database, and html & CSS.
+            
+          </p>
+          <a id="liveDemoBtn" href="https://youtu.be/vGo_wWAp6do" target="_blank"
+          >SEE VIDEO DEMO</a >
+          
+        </div>
+        <a href='https://github.com/amauryplayero/Violet-list' target="_blank" id="githubDemo"><i class="devicon-github-original-wordmark" class='contactMeIcon'></i></a>
+      </div>
+      
+      <div id="imgContainer">
+        <img src="./Screen Shot 2022-01-27 at 10.58.57 AM.png" id="imgSc" />
+      </div>
+    </section>
+    <section id='contact' >
+    <div class="contactDiv">
+      <h1>Contact me!</h1>
+      
+      <br>
+    
+    <!-- <div id='iconsForContact'> -->
+    <a href='https://www.linkedin.com/in/amaury-lopez-4048671a8/' target="_blank">
+      <i class="devicon-linkedin-plain" class='contactMeIcon'></i></a>
+      <a href='https://github.com/amauryplayero' target="_blank"><i class="devicon-github-original-wordmark" class='contactMeIcon'></i></a>
+  <!-- </div> -->
+   
+    </div>
+    <div class='email'>
+      <p>amaury.lopezdiaz@gmail.com</p>
+      
+    </div>
+    </section>
+    <!-- <div class='about'><p>The technologies I have used include Javascript, PostgreSQL, Express, Node.js, HTML, CSS, </p>
+            </div>
+            </div> -->
+    <!-- <div id='about'><p>I spend my leisure time making music, shooting film photography, and rollerskating.</p></div> -->
+  </body>
 </html>
