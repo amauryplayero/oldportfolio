@@ -69,13 +69,7 @@ a{
     border-right: 5px rgba(52, 52, 250, 0) solid;
 }
 
-.navBtns:hover{
-    /* border-right: 5px rgb(39, 111, 191) solid; */
-    /* background-color: rgba(131, 131, 247, 0.091); */
-    /* background-image: linear-gradient(to right, red , yellow); */
-    /* border-radius: 2px; */
 
-}
 #container{
     /* color:white; */
     display: flex;
