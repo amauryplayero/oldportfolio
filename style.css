@@ -164,7 +164,7 @@ a{
     margin-bottom: 9vh;
 }
 #projectsDiv h1{
-    margin-top:19vh;
+    margin-top:17vh;
     font-size: 30px;
     width: 150px;
     /* margin-right: 30vw; */
@@ -175,7 +175,7 @@ a{
     /* text-align: justify; */
     font-size: 20px;
     font-weight: 600;
-    width: 250px;
+    width: 285px;
     margin-bottom: 3vh;
     /* border: 2px red solid; */
 
@@ -221,6 +221,30 @@ a{
     /* z-index: 2; */
     background-image: linear-gradient(to right, rgba(4, 53, 126, 0.988) , rgb(32, 130, 165));
 
+}
+#herokuDemoBtn{
+    padding: 13px;
+    font-size: 15px;
+    color:white;
+    font-weight: 700;
+    border-radius: 20px;
+        box-shadow: 2px 3px 5px rgb(216, 216, 216);
+    margin-left: 15px;
+    margin-top: 60px;
+    /* border: 2px rgba(0, 0, 255, 0) solid; */
+    /* z-index: 2; */
+    background-image: linear-gradient(to right, rgba(4, 53, 126, 0.988) , rgb(32, 130, 165));
+
+}
+#herokuDemoBtn:hover{
+    box-shadow: 1px 3px 5px rgb(216, 216, 216);
+
+    outline: 2px solid rgb(11, 60, 255);
+    border-radius: 17px;
+    outline-offset: 2px;
+    /* border: 2px rgb(48, 247, 121) solid; */
+    background-color: rgba(0, 0, 0, 0);
+    
 }
 #liveDemoBtn:hover{
     box-shadow: 1px 3px 5px rgb(216, 216, 216);
@@ -318,7 +342,7 @@ i{
    height: 30px;
    margin-left: 180px;
    position:relative;
-  top: -34px;
-  left: -10px;
-  color:rgb(29, 137, 176);
+  top: 27px;
+  left: -180px;
+  color:rgb(23, 63, 125);
 }
