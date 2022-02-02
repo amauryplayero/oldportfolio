@@ -26,7 +26,7 @@ body{
     font-size: 60px;
     color:rgb(42, 46, 45);
     border:none;
-    width: 40vw;
+    width: 50vw;
 
 }
 a{
@@ -358,14 +358,7 @@ i{
         /* border: 1px blue solid; */
     }
     .navBtns{
-        /* border: 2px violet solid; */
-        /* border-radius: 20px; */
-        /* border-bottom: 2px rgb(218, 218, 218) solid; */
-        /* background-color: rgb(156, 157, 157); */
-        /* position: fixed; */
-        /* width: 100%; */
-        
-        /* color:red; */
+
         height: fit-content;
         /* transform: rotate(-20deg); */
         /* position:s; */
@@ -408,7 +401,7 @@ i{
     }
     #nameContainer{
         /* border: 2px red solid; */
-        height: 185vh;
+        height: 200vh;
 
         width:200%;
         /* position: absolute; */
@@ -418,15 +411,17 @@ i{
         padding-right:0;
         margin-left:0px;
    }
+
     #name{
         font-size: 13vh;
         color:rgb(42, 46, 45);
         border:none;
         width:140vw;
+        height: 70vh;
         text-align: start;
         line-height: 100px;
         padding-left:20vw;
-       white-space: nowrap;
+       /* white-space: nogitwrap; */
     
     }
 
